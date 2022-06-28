@@ -1,0 +1,119 @@
+body {
+  padding: 20px;
+  border-radius: 4px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Dosis", sans-serif;
+}
+
+.weather-app {
+  border: 1px solid green;
+  margin: 30px;
+  padding: 20px;
+  max-width: 600px;
+}
+.container {
+  margin-top: 30px;
+}
+
+#current {
+}
+.d-flex {
+  text-align: left;
+}
+
+.current-city {}
+  text-align: right;
+}
+
+.row {
+  text-align: center;
+}
+
+#temprature {
+  font-size: 35px;
+  text-align: center;
+  padding-right: 0;
+  margin-right: -15px;
+}
+
+#celcius {
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+}
+#fahrenheit {
+  font-weight: 100;
+  padding-left: 0;
+  text-decoration: none;
+}
+#fahrenheit:hover {
+  font-weight: 400;
+}
+
+.hum-wind {
+  opacity: 0.8;
+  font-size: 8px;
+  margin-bottom: 0;
+}
+.tempmain {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.middle {
+  margin-top: 10px;
+  font-size: 60px;
+}
+
+.middle-explain {
+  text-align: center;
+  font-size: 12px;
+}
+.sun {
+  font-size: large;
+  font-weight: 400;
+  margin-top: 7px;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+
+.time {
+  font-size: 40px;
+  margin-top: -15px;
+  opacity: 0.75;
+}
+.lower-line {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.lower-col {
+  border: 1px solid green;
+  margin: 8px;
+  padding-top: 5px;
+}
+
+.day {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.hi-lo {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.weather {
+  text-align: center;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+
+.coder {
+  text-align: center;
+  opacity: 0.75;
+  font-size: 9px;
+}
