@@ -1,93 +1,60 @@
 body {
-  padding: 20px;
-  border-radius: 4px;
-  font-family: "Dancing Script", cursive;
   font-family: "Dosis", sans-serif;
 }
 
-.weather-app {
-  border: 1px solid green;
-  margin: 30px;
-  padding: 20px;
-  max-width: 600px;
-}
-.container {
-  margin-top: 30px;
+li {
+  list-style: none;
 }
 
-#current {
+h1 {
+  padding-top: 5px;
+  text-transform: capitalize;
 }
-.d-flex {
-  text-align: left;
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+.weather-app {
+  border: 1px solid green;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .current-city {
   text-align: right;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .row {
   text-align: center;
 }
 
-#temprature {
-  font-size: 35px;
-  text-align: center;
-  padding-right: 0;
-  margin-right: -15px;
-}
-
-#celcius {
-  text-align: center;
-  text-decoration: none;
-  padding: 0;
-}
-#fahrenheit {
-  font-weight: 100;
-  padding-left: 0;
-  text-decoration: none;
-}
-#fahrenheit:hover {
-  font-weight: 400;
-}
-
 .hum-wind {
   opacity: 0.8;
-  font-size: 8px;
+  font-size: 10px;
   margin-bottom: 0;
 }
-.tempmain {
-  max-width: 100px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 5px;
-}
-.middle {
-  margin-top: 10px;
-  font-size: 60px;
-}
 
-.middle-explain {
-  text-align: center;
-  font-size: 12px;
-}
-.sun {
+.date {
   font-size: large;
   font-weight: 400;
-  margin-top: 7px;
   margin-bottom: 0;
   opacity: 0.75;
 }
 
 .time {
+  margin-top: -10px;
   font-size: 40px;
-  margin-top: -15px;
   opacity: 0.75;
 }
+
 .lower-line {
   max-width: 500px;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .lower-col {
@@ -117,3 +84,55 @@ body {
   opacity: 0.75;
   font-size: 9px;
 }
+
+#main-temp {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+#main-temp strong {
+  font-size: 40px;
+  font-weight: 400;
+  vertical-align: top;
+}
+#current-weather-and-time {
+  margin-top: 20px;
+}
+
+#fahrenheit {
+  text-decoration: none;
+}
+
+#icon {
+  font-size: 80px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+#description {
+  text-align: center;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+#date-time {
+  padding-top: 5px;
+}
+
+#humidity {
+  margin-top: -5px;
+}
+
+a.active {
+  color: black;
+  cursor: default;
+}
+
+a.active:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
