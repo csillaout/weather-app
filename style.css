@@ -57,20 +57,28 @@ h1 {
   margin-bottom: 20px;
 }
 
-.lower-col {
+.col-2 {
   border: 1px solid green;
   margin: 8px;
   padding-top: 5px;
+  border-radius: 3px;
+  max-width: 80px;
 }
 
-.day {
-  font-weight: 500;
-  margin-bottom: 0;
+.col-2:hover {
+  background-color: rgb(234, 234, 234);
+}
+.weather-forecast-date {
+  font-size: 16px;
 }
 
-.hi-lo {
-  font-size: 10px;
-  opacity: 0.5;
+.weather-forecast-temperature-max {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
 .weather {
@@ -135,4 +143,3 @@ a.active:hover {
 a {
   text-decoration: none;
 }
-
